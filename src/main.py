@@ -23,12 +23,12 @@ def main():
     coal_plant.use()
     print(coal_plant.energy)
 
-    solar_panel1 = SolarPanel()
+    solar_panel_1 = SolarPanel()
 
     # Charge battery
     charge_battery(
         {
-            "solar": solar_panel1.power, 
+            "solar": solar_panel_1.power, 
             "coal": coal_plant.energy
         }
     )
